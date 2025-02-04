@@ -1,0 +1,42 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore coverage directory
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.out
+*.o
+*.class
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore IDE project files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-generated files
+.DS_Store
+*.swp
