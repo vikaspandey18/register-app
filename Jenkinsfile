@@ -5,7 +5,7 @@ pipeline {
         maven 'Maven3'
     }
     environment{
-        APP_NAME = "register-app-ci"
+        APP_NAME = "register-app-pipeline"
             RELEASE = "1.0.0"
             DOCKER_USER = "vikas181996"
             DOCKER_PASS = 'dockerhub'
